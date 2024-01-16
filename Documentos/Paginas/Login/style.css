@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    background-color: none;
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.logo img {
+    width: 130px;
+}
+
+.container_principal {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.area_login {
+    background-color: rgb(24, 24, 24);
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+.chamada {
+    background-color: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.entrar h1 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F6DD60;
+}
+
+
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+
+    width: 300px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: rgb(84, 81, 81);
+    color: white;
+    font-size: 16px;
+    padding-left: 9px;
+    border: none;
+    outline: none;
+}
+
+
+
+.entrar button {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #F6DD60;
+    border: none;
+}
+
+
+
+
+.information_add {
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ajuda a {
+    text-decoration: none;
+}
+
+
+
+.campo {
+    position: relative;
+    margin: 5px 0;
+}
+
+.campo label {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    color: rgb(239, 232, 232);
+    transition: all 0.2s;
+    cursor: text;
+}
+
+
+
+.forms .campo .input:focus ~ label,
+.forms .campo .input:valid ~ label {
+    transform: translateY(-15px);
+    font-size: 12px;
+    color: #F6DD60;
+}
+
+
+
+/*Fooder Login*/
+
+.fooder_login {
+    background-color: none;
+    width: 300px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.visitantes {
+    background-color: none;
+    width: 100%;
+    height: 50px;
+}
+
+.visitantes p,   .scaner p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(154, 149, 149);
+}
+
+.scaner p {
+    font-size: 12px;
+}
+
+.scaner p a {
+    color: white;
+}
+
+.visitantes p a,   .scaner p a {
+    text-decoration: none;
+}
+
+.visitantes p a {
+    font-weight: bold;
+    color: white;
+}
+
+.visitantes p a:hover,   .scaner p a:hover {
+    text-decoration: underline;
+}
+
+.scaner {
+    background-color: none;
+    width: 100%;
+    height: 50px;
+}
+
+
+.check_label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.ajuda a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.alerta {
+    color: red;
+    opacity: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
